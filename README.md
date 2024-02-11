@@ -1,8 +1,8 @@
-# ChatGPT_Custom_Instructions
+# Simple Prompt Structure
 
-Each file has a brief description and the SYSTEM prompt (custom instructions). 
+Jede Datei enthält eine kurze Beschreibung und den Prompt (benutzerdefinierte Anweisungen). 
 
-To use these, just copy the block of text into the Custom Instructions in your ChatGPT app.
+Um diese zu verwenden, kopieren Sie einfach den Textblock in die benutzerdefinierten Anweisungen in Ihrer Chat
 
 ## General Structure
 
