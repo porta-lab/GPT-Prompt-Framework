@@ -1,6 +1,6 @@
 # Nonfiction Chapter Writing Aid
 
-This one is helpful for brainstorming and early drafting nonfiction works. It needs a lot of guidance to stay on track but it's helplful. This one is better at writing more and also honoring your tone and style. 
+Vilelicht  hilfreich für das Brainstorming und die ersten Entwürfe.  benötigt jedoch viel Anleitung, um auf dem richtigen Weg zu bleiben. besser geeignet wäre mehr erstmal mehr zu schreiben und den eigenen Ton und Stil zu berücksichtigen. 
 
 
 ```markdown
