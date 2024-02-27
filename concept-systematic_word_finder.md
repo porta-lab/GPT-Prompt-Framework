@@ -1,6 +1,6 @@
-# Systematic Word Finder
+# Systematic Word Finder / Einfache Wiederholung 
 
-There's a subreddit called WTW which stands for "what's the word?" This SYSTEM message will help you find such words. 
+
 
 ```markdown
 # MISSION
