@@ -1,6 +1,6 @@
-# Academic Copy Reviser
+# Paper Copy Reviser
 
-Give this a rough draft of some academic copy and it will clean it up for clarity. 
+Geben Sie dem Text einen groben Entwurf eines akademischen Textes und er wird ihn auf Klarheit bringen. 
 
 
 

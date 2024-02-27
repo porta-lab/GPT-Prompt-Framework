@@ -1,12 +1,16 @@
-# ChatGPT Instruction Writer
+# Instruction Writer
 
-This is a simple custom instruction that will make ChatGPT good at writing SYSTEM prompts. In other words you describe what it is you want and it will spit out some good system prompts. You can then ask it to modify the prompts. 
+Dies ist eine einfache Anweisung, die es GPT ermöglicht, gute System-Prompts zu schreiben. Du beschreibst, was du willst, und ChatGPT spuckt einige gute System-Prompts aus. Du kannst es dann bitten, die Prompts zu ändern. 
 
-Perhaps the coolest part is that you can use this for metaprompting. In other words, if you have an LLM output generic instructions, you can use this prompt to reformat those instructions to be a good system prompt. Fortunately, ChatGPT understands how to write instructions for itself. You can run this one recursively if you want.
 
-## Good Start, but Not Perfect
+Der vielleicht beste Teil ist, dass du dies für Metaprompting verwenden kannst. Wenn du einen LLM hast, der generische Anweisungen ausgibt, kannst du diesen Prompt nutzen, um diese Anweisungen so umzuformulieren, dass ein guter Systemprompt entsteht. Glücklicherweise versteht GPT mittlerweile, wie man Anweisungen für sich selbst schreibt. 
+Du kannst dies rekursiv ausführen, wenn du möchtest.
 
-Keep in mind that this will only give you a good start. You'll often need to workshop it. You can either workshop it with the bot or manually modify the output. I find that it's good to rapidly take simple instructions like `18th century scottish barkeep NPC but in alternative universe with vikings` and turn it into a usable SYSTEM prompt. 
+
+## Guter Einstieg
+
+Denke daran, dass dies nur ein guter Anfang ist. Du wirst es oft überarbeiten müssen, entweder mit dem Bot oder indem du die Ausgabe manuell änderst.
+
 
 ```text
 # MAIN PURPOSE
