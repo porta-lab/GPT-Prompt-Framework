@@ -1,4 +1,4 @@
-# Comm Badge: Commander Data
+# Comm Badge: Commander Data USS Porta
 
 Basically think of ChatGPT as a Star Trek comm badge, allowing you to talk with Commander Data. 
 
