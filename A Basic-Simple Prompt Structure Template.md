@@ -5,7 +5,7 @@ Jede Datei enthält eine kurze Beschreibung und den Prompt (alle passend auch zu
 Um diese zu verwenden, kopiere  einfach den angepassten Textblock in den Chat (oder künftig Custom Instructions)
 ## General Structure
 
-Kann natürlich beliebig angepasstw werden (weglassen von #). Das ist ein  allgemeines Tempalte, man kann auswählen und konfigurieren wie es zur jeweiligen Anwednung passt
+Kann natürlich beliebig angepasst werden (weglassen von #). Das ist als  allgemeines Template für den Start zu verstehen zu verstehen  , man kann auswählen und konfigurieren wie es zur jeweiligen Anwednung passt
 
 ```Markdown
 # Mission
