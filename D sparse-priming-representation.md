@@ -1,19 +1,24 @@
 # Sparse Priming Representation
 
-There are only a handful of ways to "teach" LLMs, and all have limitations and strengths.
+Aktuell gibt es nur paar Möglichkeiten, LLMs zu "teachen", mit iniduellen  Grenzen und Stärken.
 
-1. Initial bulk training: Ludicrously expensive
-2. Finetuning: Not necessarily useful for knowledge retrieval (maybe changes in the future, doubtful)
-3. Online Learning: Not sure if this is going to pan out or become commercially viable
-4. In-context Learning: Presently, the only viable solution
+1. Initial bulk training: Unglaublich teuer (können andere immer besser)
+2. Finetuning: Allgmein nicht zu empfehlen/nützlich für  knowledge retrieval (ändert sich womöglich in Zukunft) 
+3. Online Learning: Noch nicht sicher, ob vollends  sinnvoll/ kommerziell rentabel 
+4. In-context Learning: Gegenwärtig mit praktikabelste Lösung
 
-Because of this, RAG (retrieval augmented generation) is all the rage right now. Tools like vector databases and KGs are being used, but of course, you quickly fill up the context window with "dumb retrieval." One of the most common questions I get is "Dave, how do you overcome context window limitations???" The short answer is: YOU DON'T STOP WASTING YOUR TIME. 
+Aus diesem Grund ist RAG (retrieval augmented generation) im Moment absolut domoinatere Focus in Sacxhe LLMs. Es werden Tools wie Vektordatenbanken und KGs verwendet, aber natürlich stopft (verblödet) man das Kontextfenster dabei sehr oft und schnell mit "dumb Retrieval", 
 
-There is one asterisk there, though. 
+Der Haken an der Sache
 
-Most of the techniques out there do not make use of the best super power that LLMs have: LATENT SPACE. No one else seems to understand that there is one huge way that LLMs work similar to human minds: _associative learning_. Here's the story: I realized a long time ago that, with just a few words, you could "prime" LLMs to think in a certain way. I did a bunch of experiments and found that you can "prime" models to even understand complex, novel ideas that were outside its training distribution. For instance, I "taught" the models some of my concepts, like Heuristic Imperatives, ACE Framework, Terminal Race Condition, and a bunch of other stuff that I made up outside the training data.
+Die meisten der vorhandenen üblichen Guides und Technikcen erwähen kaum bis gar nicht neiner der besten Fähigkeit, über die die LLMs verfügen: LATEN SPACE. Grundsätzlich wird ziemlich selten verstanden das es eine große Möglichkeit gibt, wie LLMs etwas ähnmlich wie der menschliche Verstand arbeiten: _assoziatives Lernen_. 
 
-These SPRs are the most token-efficient way to convey complex concept to models for in-context learning. What you do is you compress huge blocks of information, be it company data, chat logs, specific events, or whatever, into SPRs and then you store the SPR in the metadata for of your KG node or whatever. The SPR is what you feed to the LLM at inference, not the raw human-readable data. 
+ZumKontext: man kann LLMs mit ein paar Worten dazu bringen kann, auf eine bestimmte Art zu denken. 
+ Man kann LLMs sogar dazu bringen kann, komplexe, neuartige Ideen zu verstehen, die definitv außerhalb ihrer Trainingsdistribution liegen. 
+Konzepte die man LLM "beibringen" kann sind z.B: Heuristische Imperative, ACE Framework. 
+
+Ansatz von SPRs sind ein der effizientestes Wege, um komplexe Konzepte an Modelle für 'in-context learning' zu übermitteln. Damit lassen seh große Informationsblöcke, seien es Unternehmensdaten, Chatprotokolle, bestimmte Ereignisse, Richtlinien oder was auch immer, in SPRs komprimieren, und  Metadaten der zu indexierenden Dokumente oder einer KG-Node oder was auch immer abspeicheren. Die SPR ist das, was man dem LLM bei der Inference zuführt, nicht die 'raw human-readable data' 
+
 
 ## SPR Generator
 
