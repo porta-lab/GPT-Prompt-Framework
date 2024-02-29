@@ -1,4 +1,4 @@
-# Simple Prompt Structure
+# Simple Prompt Structure Template
 
 Jede Datei enthält eine kurze Beschreibung und den Prompt (alle passend auch zukünfttig für Custom Instructions). 
 
