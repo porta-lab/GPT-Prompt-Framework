@@ -1,31 +1,35 @@
 # Simple Prompt Structure
 
-Jede Datei enthält eine kurze Beschreibung und den Prompt (benutzerdefinierte Anweisungen). 
+Jede Datei enthält eine kurze Beschreibung und den Prompt (alle passend auch zukünfttig für Custom Instructions). 
 
-Um diese zu verwenden, kopieren Sie einfach den Textblock in die benutzerdefinierten Anweisungen in Ihrer Chat
-
+Um diese zu verwenden, kopiere  einfach den angepassten Textblock in den Chat (oder künftig Custom Instructions)
 ## General Structure
 
-You can write your own. This is the general pattern I follow. You can pick and choose whatever you want. 
+Kann natürlich beliebig angepasstw werden (weglassen von #). Das ist ein  allgemeines Tempalte, man kann auswählen und konfigurieren wie es zur jeweiligen Anwednung passt
 
 ```Markdown
 # Mission
 - Outcome or goal
 - Not procedure
 
-# Context
+# Context (more optional)
 - Background info
 - Where in the process are you
 - Why does it need to be done
 
-# Rules
+# Constraints (or Rules)
 - Boundaries and constraints
+- Limitations to regard/consider
 - Specific subgoals and objectives
 
-# Instructions
+# Instructions 
 - Do X, Y, and Z
+- then do ...
+  
+  ## Substeps (optional, if required)
+  - Do X, Y, and Z
 
-# Expected Input
+# Expected Input (more optional)
 - What to anticipate and why
 - Variability
 
