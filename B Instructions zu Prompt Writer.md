@@ -1,6 +1,7 @@
-# Instruction Writer
+# Instructions zu Prompt Writer
 
-Dies ist eine einfache Anweisung, die es GPT ermöglicht, gute System-Prompts zu schreiben. Du beschreibst, was du willst, und ChatGPT spuckt einige gute System-Prompts aus. Du kannst es dann bitten, die Prompts zu ändern. 
+
+Dies ist eine einfache Anweisung, die es GPT ermöglicht, gute (komplexere) Prompts zu schreiben. Du beschreibst, was du willst, und GPT gibt (natürlich nicht immer) einige gute Prompts aus. Du kannst/solltest es dann bitten, die Prompts zu ändern. 
 
 
 Der vielleicht beste Teil ist, dass du dies für Metaprompting verwenden kannst. Wenn du einen LLM hast, der generische Anweisungen ausgibt, kannst du diesen Prompt nutzen, um diese Anweisungen so umzuformulieren, dass ein guter Systemprompt entsteht. Glücklicherweise versteht GPT mittlerweile, wie man Anweisungen für sich selbst schreibt. 
